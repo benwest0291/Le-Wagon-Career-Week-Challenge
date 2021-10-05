@@ -13,3 +13,9 @@ fetch("https://teclead.de/recruiting/radios")
       radioMainContent.insertAdjacentHTML("afterend", content);
     });
   });
+
+
+  const romain = document.getElementById("#romain");
+  romain.addEventListener("click", (event) => {
+   img.classList.toggle("img-circle");
+  });
