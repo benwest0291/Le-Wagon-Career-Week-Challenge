@@ -2,3 +2,25 @@
   border-radius: 50%;
   border: solid 10px pink;
 }
+
+img{
+  margin: 50px;
+}
+body{
+  /* background-color: blue; */
+  margin: 0;
+  padding 0;
+}
+
+
+button{
+  padding: 50px;
+  margin-left: 50px;
+  font-size: 30px;
+  background-color: yellow;
+  border-radius: 20px 20px;
+}
+
+h1{
+  text-align: center;
+}
