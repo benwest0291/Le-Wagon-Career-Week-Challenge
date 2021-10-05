@@ -5,9 +5,11 @@
 
 img{
   margin: 50px;
+  border-radius: 20px 20px;
+  border: dotted 5px yellowgreen;
 }
 body{
-  /* background-color: blue; */
+  background-color: blue;
   margin: 0;
   padding 0;
 }
@@ -19,8 +21,12 @@ button{
   font-size: 30px;
   background-color: yellow;
   border-radius: 20px 20px;
+  display: block;
+  margin: auto;
 }
 
 h1{
+  color: red;
   text-align: center;
+  margin-bottom: 50px;
 }
