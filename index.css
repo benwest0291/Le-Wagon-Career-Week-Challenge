@@ -53,6 +53,13 @@ h2{
   justify-content: space-evenly;
 }
 
+.station-line-center {
+  border-bottom: 1px solid #fff;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .station-name{
   justify-content: row;
   font-weight: 100;
@@ -98,7 +105,12 @@ img{
   font-size: 15px;
 }
 
-.station-line{
+.station-line-center{
+  font-weight: 100;
+  margin: 0;
+}
+
+.station-line {
   font-weight: 100;
   margin: 0;
 }
@@ -106,4 +118,17 @@ img{
 
 .img-circle {
   border-radius: 50%;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: solid 1px pink;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.reveal{
+  visibility: visible;
 }

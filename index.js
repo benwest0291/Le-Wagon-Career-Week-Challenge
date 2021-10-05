@@ -15,7 +15,28 @@ fetch("https://teclead.de/recruiting/radios")
   });
 
 
-  const romain = document.getElementById("#romain");
-  romain.addEventListener("click", (event) => {
-   img.classList.toggle("img-circle");
-  });
+
+
+
+
+
+// let headingClick = document.querySelector(".heading");
+// let showStation = document.querySelector(".station-line");
+
+// headingClick.addEventListener("click", () => {
+//   console.log(showStation);
+//   showStation.classList.toggle("reveal");
+// });
+
+
+
+// Button Styles!!
+
+// let button = document.querySelectorAll('.heading');
+// let msg = document.querySelectorAll(".station-line-center");
+// console.log(msg);
+
+
+// button.addEventListener('click', () => {
+//   msg.classList.toggle('reveal');
+// })
